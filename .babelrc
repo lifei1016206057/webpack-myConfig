@@ -1,0 +1,39 @@
+{
+    "presets": [
+        [
+            "es2015",
+            {
+                "modules": false
+            }
+        ]
+        // [
+        //     "env",
+        //     {
+        //         "modules": false
+        //     }
+        // ]
+    ],
+    "plugins": [
+        [
+            "component",
+            {
+                "libraryName": "element-ui",
+                "styleLibraryName": "theme-chalk"
+            }
+        ]
+    ],
+    "env": {
+        "test": {
+            "presets": [
+                [
+                    "env",
+                    {
+                        "targets": {
+                            "node": "current"
+                        }
+                    }
+                ]
+            ]
+        }
+    }
+}
