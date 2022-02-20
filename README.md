@@ -28,10 +28,3 @@
     2. alias: 路径别名
 15. jest
 
-
-
-# tip
-
-1. `npm i --save-dev` 等同于 `npm i -d `. 将插件保存到dev环境. `npm i --save`等同于`npm i -s`将插件保存到盛传环境. `npm i -dev`这种是错误写法.没有单独的-dev的参数.
-
-
